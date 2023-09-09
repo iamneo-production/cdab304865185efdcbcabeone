@@ -10,7 +10,7 @@ section {
     font-family: "Permanent Marker", cursive;
     width: 100px;
     height: 100px;
-    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    box-shadow: 2px 2px 2px 2px #ff9500;
     border: 2px solid #ecd7ba;
     cursor: pointer;
     line-height: 100px;
@@ -19,7 +19,7 @@ section {
 
 .game--title {
     font-size: 100px;
-    color: #d7a62f;
+    color: #ff0000;
     margin: 10px auto;
 }
 
