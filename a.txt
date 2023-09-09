@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Assuming your CSS file is named "styles.css" -->
+    <title>Your Page Title</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Your Header</h1>
+    </header>
+
+    <div class="box">
+        <div class="row">
+            <button class="btn">Button 0</button>
+            <button class="btn">Button 1</button>
+            <button class="btn">Button 2</button>
+        </div>
+        <div class="row">
+            <button class="btn">Button 3</button>
+            <button class="btn">Button 4</button>
+            <button class="btn">Button 5</button>
+        </div>
+        <div class="row">
+            <button class="btn">Button 6</button>
+            <button class="btn">Button 7</button>
+            <button class="btn">Button 8</button>
+        </div>
+    </div>
+
+    <div class="result-container">
+        <p class="result">Result Text</p>
+    </div>
+
+    <div class="reset">
+        <button class="reset-button">Reset</button>
+    </div>
+
+    
+</body>
+</html>
