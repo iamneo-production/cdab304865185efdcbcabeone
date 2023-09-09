@@ -1,49 +1,91 @@
-body {
-    font-family: "Arial", sans-serif;
+/* Header Styling */
+.header {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    font-size: 50px;
 }
 
-section {
+/* Box Styling */
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+}
+
+/* Row Styling */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button Styling */
+.btn {
+    width: 75px;
+    height: 75px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button Hover Styling */
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+/* Disabled Button Styling */
+.btn:disabled {
+    color: #000;
+    cursor: no-drop;
+}
+
+/* Result Container Styling */
+.result-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #000;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 10px;
+}
+
+/* Result Styling */
+.result {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+}
+
+/* Reset Styling */
+.reset {
     text-align: center;
 }
 
-.cell {
-    font-family: "Permanent Marker", cursive;
-    width: 100px;
-    height: 100px;
-    box-shadow: 2px 2px 2px 2px #ff9500;
-    border: 2px solid #ecd7ba;
+/* Reset Button Styling */
+.reset-button {
+    border: 2px solid #000;
+    color: #fff;
     cursor: pointer;
-    line-height: 100px;
-    font-size: 60px;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #000;
 }
 
-.game--title {
-    font-size: 100px;
-    color: #ff0000;
-    margin: 10px auto;
-}
-
-.game--container {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    width: 306px;
-    margin: 10px auto;
-    background-color: #11213a;
-    color: #04c0b2;
-}
-
-.game--status {
-    font-size: 50px;
-    color: #d7a62f;
-    margin: 20px auto;
-}
-
-.game--restart {
-    background-color: #f7e4ac;
-    width: 200px;
-    height: 50px;
-    font-size: 25px;
-    color: #5586e2;
-    box-shadow: 2px 2px 2px 2px #d86c23;
-    border: 2px solid #d86c23;
+/* Reset Button Hover Styling */
+.reset-button:hover {
+    background-color: #fff;
+    color: #000;
 }
